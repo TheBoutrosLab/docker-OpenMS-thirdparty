@@ -31,6 +31,8 @@ jobs:
       packages: write
     steps:
       - uses: TheBoutrosLab/tool-Docker-action@v2
+        with:
+          # The complete multi-architecture build exceeds GitHub-hosted runner disk capacity.
+          platforms: linux/amd64
       # Uncomment if you expect to use non-SemVer release tags
-      # with:
-      #   non-semver-tags: true
+      #     non-semver-tags: true
