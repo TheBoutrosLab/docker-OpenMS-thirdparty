@@ -15,7 +15,7 @@ RUN mamba create -qy -p ${CONDA_ENV_PATH} \
     -c conda-forge \
     openms-thirdparty==${OPENMS_THIRDPARTY_VERSION} \
     xtandem==${XTANDEM_VERSION} && \
-    ln -s ${CONDA_ENV_PATH}/bin/xtandem ${CONDA_ENV_PATH}/bin/tandem.exe && \
+    test -x ${CONDA_ENV_PATH}/bin/tandem.exe && \
     mamba clean -afy
 
 # Deploy the target tools into a base image

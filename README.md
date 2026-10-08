@@ -6,8 +6,8 @@ their compatible third-party search engines and adapters.
 This image is maintained by the Boutros Lab and installs Bioconda's
 `openms-thirdparty` bundle in a dedicated Miniforge/Conda environment on an
 Ubuntu runtime image. The bundle includes the core OpenMS tools.
-X!Tandem is installed separately from Bioconda, with a `tandem.exe`
-compatibility link for OpenMS's `XTandemAdapter`.
+X!Tandem is installed separately from Bioconda and provides the `tandem.exe`
+executable expected by OpenMS's `XTandemAdapter`.
 
 ## Version
 
