@@ -13,7 +13,7 @@ executable expected by OpenMS's `XTandemAdapter`.
 
 | Component | Version |
 |-----------|---------|
-| OpenMS-thirdparty | 3.5.0 |
+| OpenMS-thirdparty | 3.6.0 |
 | X!Tandem | 15.12.15.2 |
 | Miniforge | 26.1.1-2 |
 | Ubuntu | 24.04 |
