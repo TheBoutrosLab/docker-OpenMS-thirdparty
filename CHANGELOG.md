@@ -8,6 +8,12 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [Unreleased]
 
+## [3.6.0] - 2026-11-10
+
+### Changed
+
+- Update OpenMS-thirdparty from 3.5.0 to 3.6.0.
+
 ## [3.5.0] - 2026-10-08
 
 ### Added

@@ -7,7 +7,7 @@ FROM condaforge/miniforge3:${MINIFORGE_VERSION} AS builder
 ARG CONDA_ENV_PATH
 
 # Use conda to install tools and dependencies into the configured environment path
-ARG OPENMS_THIRDPARTY_VERSION=3.5.0
+ARG OPENMS_THIRDPARTY_VERSION=3.6.0
 ARG XTANDEM_VERSION=15.12.15.2
 
 RUN mamba create -qy -p ${CONDA_ENV_PATH} \
